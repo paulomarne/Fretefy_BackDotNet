@@ -1,4 +1,4 @@
-# Fretefy | FullStack
+# Fretefy | Back .NET
 
 Bem vindo,
 
@@ -12,7 +12,7 @@ Boa sorte!
 
 # Como começar?
 
-1. Faça o fork do projeto `https://github.com/`
+1. Faça o fork do projeto `https://github.com/christiansaddock/Fretefy_BackDotNet`
 2. Faça sua implementação
 3. Suba seu código no fork criado
 4. Nos avise sobre a finalização da implementação, preferencialmente por email: christian.saddock@fretefy.com.br 🚀
@@ -61,6 +61,7 @@ Como utilizamos Entity para este projeto vamos utitilizar o SQLite para facilita
 1. Priorizamos o formato DDD na avaliação.
 2. Fique a vontade para incluir mais operações que julgar necessário, mesmo que elas não estejam nos requisitos.
 3. Para simplificar abstraimos o AppService do DDD, caso queira implementar, será um diferencial.
+4. Quer fazer algo a mais? Seria um diferencial implementar por exemplo uma busca dos dados de Latitude e Longitude da cidade cadastrada pelas APIs do google ou do mapbox, buscando a chave para esse consumo do appsettings #FicaDica 😉
 
 ## Dicas
 1. O CORS necessita ser configurado no back para que se comunique corretamente com o front, caso o faça 😉
