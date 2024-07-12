@@ -28,14 +28,12 @@ Implementar uma forma de exportar a listagem do cadastro de regiões, preferenci
     - Cidade
     - UF
 
-### Requisitos
+### Validações
 - O campo nome é obrigatório
 - Não deve permitir cadastrar duas regiões com o mesmo nome
 - É obrigatório informar ao menos uma cidade na região
 - Não pode ser informada a mesma cidade duas ou mais vezes
 - Uma região pode ser desativada/ativada
-- O campo de cidade/uf deve ser um seletor (combobox)
-- Poder exportar os dados através de um endpoint específico
 
 ![Cadastro de Regiões](assets/referencia_listagem.png)
 > Imagem de referência para a listagem
@@ -56,7 +54,8 @@ Como utilizamos Entity para este projeto vamos utitilizar o SQLite para facilita
 - Implementar um Repository que contenham as operações de do CRUD (`List, Create, Update`) que deverão chamar as respectivas ações no Entity Framework
 - Service e Repository deverão ser instanciados via Dependecy Injection no lifetime apropriado 
 - Service e Repository deverão ter cada uma sua respectiva interface para uso e registro no Dependency Injection
-
+- Poder exportar os dados através de um endpoint específico
+- 
 ## Observações
 1. Priorizamos o formato DDD na avaliação.
 2. Fique a vontade para incluir mais operações que julgar necessário, mesmo que elas não estejam nos requisitos.
