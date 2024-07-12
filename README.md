@@ -55,7 +55,7 @@ Como utilizamos Entity para este projeto vamos utitilizar o SQLite para facilita
 - Service e Repository deverão ser instanciados via Dependecy Injection no lifetime apropriado 
 - Service e Repository deverão ter cada uma sua respectiva interface para uso e registro no Dependency Injection
 - Poder exportar os dados através de um endpoint específico
-- 
+  
 ## Observações
 1. Priorizamos o formato DDD na avaliação.
 2. Fique a vontade para incluir mais operações que julgar necessário, mesmo que elas não estejam nos requisitos.
